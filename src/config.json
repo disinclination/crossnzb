@@ -1,0 +1,20 @@
+{
+  "servers": [
+    {
+      "server": "news.example.com",
+      "port": 119,
+      "ssl": false,
+      "username": "user1",
+      "password": "pass1",
+	  "connections": 50
+    },
+    {
+      "server": "another.news.example.com",
+      "port": 563,
+      "ssl": true,
+      "username": "user2",
+      "password": "pass2",
+	  "connections": 50
+    }
+  ]
+}
